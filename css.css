@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{  
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgba(255,255,255, 0.35);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;  
+    transition: 0.7s ease; 
+}
+
+
+.logo{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: #755122;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image:url(photos/computer-programmer-using-laptop.jpg) ;
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn { 
+    color: rgb(0, 0, 0);
+    background-color: #b49162;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.937em 2.1875em;
+    letter-spacing: 1px;
+    border-radius:15px;
+    margin-bottom: 40px;
+    transition: 0.6s ease;
+}
+
+.main-btn:hover {
+    background-color: #e2b888;
+    transform: scale(1.1);
+}
+
+.social-icons a { 
+    color: #fff;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.social-icons a i:hover {
+    transform: scale(1.1);
+}
+
+.title { 
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.5);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    color: #000000;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: #000000;
+    font-size: 1.2em;
+    font-weight: 10px;
+    margin: 10px;
+}
+
+
+.projects .content {
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color: #fff;
+    min-height: 14em;
+    width: 23em;
+    box-shadow: 0 5px 15px rgba(1, 1, 1, 0.5);
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(1, 1, 1, 0.95);
+
+}
+.project-card:hover .project-image {
+    opacity: 0.8;
+}
+
+.project-image img{
+    width: 100%;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-category {
+    font-size: 0.8em;
+    color: #000000;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details {
+    text-decoration: none;
+    color: #000000;
+}
+
+.more-details:hover{
+    color: #755122;
+}
+
+
+.projects {
+    background-color: #b4aa9d;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.phone-call {
+    text-align: center;
+    width: 50px;
+}
+
+footer {
+    background-color: #755122;
+    opacity: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+footer span {
+    font-weight: 500;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #000000;
+}
