@@ -248,10 +248,12 @@ footer p a {
 .container-icon{
     position: fixed;
     padding: 10px;
+    z-index: 15;
+
 }
 .icn{
     display: none;
-    width: 60px;
+    width: 50px;
     height: 46px;
     position: relative;
     flex-direction: column;
