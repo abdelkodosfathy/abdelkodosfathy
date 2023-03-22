@@ -9,7 +9,20 @@
     <title>Coffe Project</title>
 </head>
 <body>
-    
+    <div class="nav-phone">
+        <nav class="inner-nav-phone navigation">
+            <a href="#services">services</a>
+            <a href="#projects">projects</a>
+            <a href="#contact">contact </a>
+        </nav>
+    </div>
+    <div class="container-icon">
+        <div class="icn">
+            <div class="dash"></div>
+            <div class="dash"></div>
+            <div class="dash"></div>
+        </div>
+    </div>
     <header>
         <a href="#" class="logo">abdelkodos</a>
         <nav class="navigation">
@@ -18,7 +31,6 @@
             <a href="#contact">contact </a>
         </nav>
     </header>
-
     <section class="main">
         <div>
             <h2>hello, I am abdelkodos<br><span>Front End</span> <span>Developer</span></h2>
@@ -41,7 +53,7 @@
                 </div>
                 <div class="info">
                     <h3>coding</h3>
-                    <p>i can make beautifull website for you by using HTTML & CSS</p>
+                    <p>i can make beautifull website for you by using <b>HTTML | CSS | JS</b></p>
                 </div>
             </div>
             <div class="card">
@@ -57,16 +69,16 @@
     </section>
 
     <section class="projects" id="projects">
-         <h2 class="title">Projects</h2>
+        <h2 class="title">Projects</h2>
         <div class="content">
             <div class="project-card">
                 <div class="project-image">
                     <img src="photos/project 1.jpg" />
                 </div>
                 <div class="project-info">
-                    <p class="project-category">that is the project</p>
+                    <p class="project-category">a gaming platform form</p>
                     <strong class="project-title">
-                        <span>title</span>
+                        <span>form</span>
                         <a href="https://abdelkodosfathy.github.io/form/" class="more-details">veiew</a>
                     </strong>
                 </div>
@@ -76,22 +88,10 @@
                     <img src="photos/project 2.jpg" />
                 </div>
                 <div class="project-info">
-                    <p class="project-category">that is the project</p>
+                    <p class="project-category">a simple calculator</p>
                     <strong class="project-title">
-                        <span>title</span>
-                        <a href="#" class="more-details">veiew</a>
-                    </strong>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="photos/project 3.jpg" />
-                </div>
-                <div class="project-info">
-                    <p class="project-category">that is the project</p>
-                    <strong class="project-title">
-                        <span>title</span>
-                        <a href="#" class="more-details">veiew</a>
+                        <span>calculator</span>
+                        <a href="https://abdelkodosfathy.github.io/calc/" class="more-details">veiew</a>
                     </strong>
                 </div>
             </div>
@@ -134,5 +134,13 @@
             <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
         </div>
     </footer>
+    <script>
+        const icn = document.querySelector(".icn");
+        const sideNav = document.querySelector(".nav-phone");
+        icn.onclick = () => {
+            icn.classList.toggle("hovered");
+            sideNav.classList.toggle("show")
+        }
+    </script>
 </body>
 </html>
