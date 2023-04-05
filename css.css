@@ -132,6 +132,12 @@ section {
     margin: 15px;
     transition: 0.7s ease;
 }
+a.card {
+    text-decoration: none;
+}
+a:visited{
+    color: #000;
+}
 
 .card:hover {
     transform: scale(1.1);
@@ -293,6 +299,13 @@ footer p a {
     opacity: 0;
 }
 @media (max-width: 930px){
+    .project-card:hover, .card:hover{
+        transform: scale(1);
+        box-shadow: rgba(1, 1, 1, 0.95);
+    }
+    .project-card:hover .project-image{
+        opacity: 1;
+    }
     section{
         padding: 100px 50px;
     }
